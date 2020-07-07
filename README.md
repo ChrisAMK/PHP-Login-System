@@ -1,1 +1,3 @@
 # PHP-Login-System
+
+This is a PHP Login-System Demonstration, Wrote this after doing the the Pre-work for my bootcamp. I'm not sure how people are going to be able practically use this login system since the Database that is referred to is hosted on my local machine and i currently do not know how to upload the Database to Github, none the less anyone can fork the code and reserve engineer their own database to work with this. Don't mind the styling it's purely just for the code.
