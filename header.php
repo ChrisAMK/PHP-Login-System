@@ -29,6 +29,7 @@
         </div>
         <div class="login">
             <?php
+            // IF statement determines if the session is logged in and displays the Aprropriate HTML
                 if (isset($_SESSION['userId'])) {
 
                     echo '<form action="includes/logout.inc.php" method="post">

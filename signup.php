@@ -7,6 +7,8 @@
         <div class="col-sm-3 col-md-3 col-lg-3 signup-container">
             <h1>Sign up</h1>
             <?php
+                // If there is a error in the signup these handle all the different, the code checks from the URL in browser
+                // if there are errors, this script translates the URL errors to HTML
                 if (isset($_GET['error'])) {
                     if ($_GET['error'] == "emptyfields") {
                         echo '<p>Fill in all the fields!</p>';
@@ -38,7 +40,7 @@
                     }
 
            
-            ?>
+            ?>  
                 <form action="includes/signup.inc.php" method="post">
                     <input type="text" name="uid" placeholder="Username"><br>
                     <input type="text" name="mail" placeholder="E-mail"><br>
